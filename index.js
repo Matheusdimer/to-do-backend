@@ -14,6 +14,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 require('./src/app/controller/authController')(app);
-require('./src/app/controller/projectController')(app);
+require('./src/app/controller/taskController')(app);
 
 app.listen(process.env.PORT || 4000);
